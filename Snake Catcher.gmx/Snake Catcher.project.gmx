@@ -33,10 +33,12 @@
     <object>objects\obj_Controller</object>
     <object>objects\obj_Title_Controller</object>
     <object>objects\obj_Title_Snake</object>
+    <object>objects\obj_Game_Over_Controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Title</room>
-    <room>rooms\rm_MainField</room>
+    <room>rooms\rm_Main_Field</room>
+    <room>rooms\rm_Game_Over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
