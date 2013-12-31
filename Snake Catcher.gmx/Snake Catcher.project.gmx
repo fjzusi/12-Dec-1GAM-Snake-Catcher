@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_Hurt</sound>
+    <sound>sound\snd_Catch</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Snake1</sprite>
@@ -18,15 +21,22 @@
     <background>background\bck_Title</background>
   </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_Title</font>
+    <font>fonts\fnt_SubTitle</font>
+    <font>fonts\fnt_Normal</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_Player_Net</object>
     <object>objects\obj_Player_Body</object>
     <object>objects\obj_Snake</object>
     <object>objects\obj_Controller</object>
+    <object>objects\obj_Title_Controller</object>
+    <object>objects\obj_Title_Snake</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_MainField</room>
     <room>rooms\rm_Title</room>
+    <room>rooms\rm_MainField</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
